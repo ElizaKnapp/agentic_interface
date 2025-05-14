@@ -1,0 +1,31 @@
+Sub Model Type,Model Type,Facet Type,UID,Description
+Base,AI_CAST,AI_CAST,M_039,Forecasting for time series data
+Classification,AI_LLM,AI_LLM,M_041,Use LLMs for classification 
+Regression,AI_LLM,AI_LLM,M_042,Use LLMs for regression 
+Question Answer,AI_LLM,AI_LLM,M_043,Use LLMs to answer user questions
+Custom,AI_LLM,AI_LLM,M_044,Use LLMs to ask a custom prompt on your data
+Chat,AI_LLM,AI_LLM,M_045,Use LLMs to maintain a chat 
+Summary,AI_LLM,AI_LLM,M_046,Use LLMs to summarize data
+Generate ,AI_LLM,AI_LLM,M_047,Use LLMs to generate responses based on an entire dataset
+Flow Search,AI_LLM,AI_LLM,M_048,Use LLMs to figure out which flow to run on the platform
+Supervised,AI_MATCH,AI_MATCH,M_015,Combine two datasets based on given keys in the left and right dataset and find matches between rows
+Unsupervised,AI_MATCH,AI_MATCH,M_015,Combine two datasets by deciding which columns in the left and right dataset are associated with each other and finding matches between rows
+Supply Chain,AI_PLAN,AI_PLAN,M_036,Policy optimization for product data by running scenarios about when to reorder and how much to order
+Base,AI_PREDICT,AI_PREDICT,M_049,Predict the values of a target column using hyperparameter search over several models
+None,DECOMPOSITION,TIME_SERIES_ANALYSIS,M_048,"Takes in time series data and outputs the time series decomposed into trend, seasonality, recency and holiday impact"
+None,ANOMALY_DETECTION,TIME_SERIES_ANALYSIS,M_048,Identifies anomaly points within time series data and generates the predicted values/degree of anomaly
+None,CHANGE_POINT_DETECTION,TIME_SERIES_ANALYSIS,M_048,Identifies change points within time series data so that we can see shifts in patterns/trends
+None,EMBEDDING,TIME_SERIES_ANALYSIS,M_048,Converts time series data into a matrix where a row is one time point observation and a column is the features by using summary statstics of previous n observations
+None,IMPUTATION,TIME_SERIES_ANALYSIS,M_048,"Use time series analysis, particularly lgmt1, to impute time series data"
+None,RECONCILIATION,TIME_SERIES_ANALYSIS,M_048,Adjust forecasts to adhere to known linear constraints for any level in the hierarchy and reconcile results
+None,DECISION_TREES,PREDICT,M_016,Decision tree for tabular prediction
+None,CLUSTERING,PREDICT,M_016,Clustering for tabular prediction
+None,DIMENSIONALITY_REDUCTION,PREDICT,M_016,Dimensionality reduction of the data in a target column
+None,MATRIX_COMPLETION,PREDICT,M_016,Imputation of a column by matrix completion
+None,NEAREST_NEIGHBORS,PREDICT,M_016,Nearest neighbors for tabular prediction
+None,TIME_SERIES,PREDICT,M_016,Time series for tabular prediction with dates
+None,VECTORIZER,PREDICT,M_016,Vectorize a specific column in the data
+None,GAUSSIAN_PROCESS,PREDICT,M_016,Gaussian process for tabular prediction
+None,LINEAR,PREDICT,M_016,Linear regression or classification for tabular prediction
+None,NAIVE_BAYES,PREDICT,M_016,Naive bayes for tabular prediction
+None,SVM,PREDICT,M_016,SVM for tabular prediction

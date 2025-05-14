@@ -1,0 +1,2 @@
+Time,User Email,User Query,Response
+2025-04-11 20:35:14,eliza@ikigailabs.io,What is the aux forecast quantity for FTH in January?,"The aux forecast quantity for FTH in January is 479,604.00 units. This number was generated from the ""full aux forecasts"" dataset by filtering the data for products labeled as 'FTH' and with a time entry in January. The code then calculated the sum of the Quantity column for these filtered entries to arrive at the total quantity."

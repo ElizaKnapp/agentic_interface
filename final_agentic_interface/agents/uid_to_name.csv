@@ -1,0 +1,63 @@
+UID,Facet Name,Description
+O_004,DUMP,Export data to a hosted database
+O_006,HANA,Export data to hana database
+O_005,EXPORTED,Export data to a file on the ikigai platform
+O_002,PYTHON,Export data using python code
+O_000,SLACK,Export data to slack channel
+O_007,OUTPUT_CONNECTOR,Export data to external environment
+O_001,S3,Export data to s3
+O_003,CUSTOM_FACET,Export data using a custom facet
+M_026,COLUMN_VALUE,Split data by chosen values into multiple outputs
+M_027,COPY,Copy the data over
+M_018,SUBSTITUTE,Substitute columns from one table with columns from another
+M_017,JOIN,Join two tables by common key columns
+M_019,UNION,Combine tables vertically by mapping columns
+M_049,AI_PREDICT,Predict the values of a target column using hyperparameter search over several models
+M_015,AI_MATCH,Match rows in two datasets based on multiple key columns
+M_016,PREDICT,Predict values of target column
+M_048,TIME_SERIES_ANALYSIS,Performs many functionalities on time series data
+M_039,AI_CAST,Forecasting for time series data
+M_036,AI_PLAN,Policy optimization for product data
+M_041,AI_LLM,LLM processing to provide textual interpretation of data
+M_000,PYTHON,User writes python functionality for data
+M_043,ADD_OR_SUBTRACT_TIME,Add of subtract a specific amount of time to a time column
+M_047,ROLLING_WINDOW,"Aggregate time related data using min, max, mean, mode etc over a specific window (like by week)"
+M_045,ADD_CURRENT_TIME,Add a column to dataset with the current date and time
+M_046,FILTER_BY_TIME,Filter data by a selected date range of a time column
+M_044,GET_TIME_UNIT,"Take a date column and find the unit (month, week, year) and put that information in a new column"
+M_042,CHANGE_TIME_GRANULARITY,"Change the interval of data (weeks to months, day to week, etc) and aggregate other values accordingly"
+M_001,CUSTOM_FACET,Write your own code in a facet
+M_004,DESCRIBE,Get key statistics about data (pandas describe include = all)
+M_022,DROP_MISSING_VALUES,Drop missing values in a particular column
+M_028,ADD_PRIMARY_KEY,Inserts an index column as a unique identifier for the dataframe
+M_035,TEXT_SPLIT,Split a column in the dataset based on a character or word (apple-banana becomes apple | banana in two columns joined to the original dataframe)
+M_005,DROP_COLUMNS,Drop columns based on target value
+M_021,DEDUPLICATE,Remove duplicate rows in a dataframe
+M_033,MULTI_INPUT_FORMULA,Performs spreadsheet-like formula operations on multiple datasets and edits or adds to the existing data.
+M_024,SORT,Sort the dataset based on a column
+M_007,FREE_FORM_SQL,Apply a custom SQL query to data
+M_020,CROSS_TAB,Works like pandas crosstab– converts unique values from the key column into new columns with corresponding value columns
+M_034,RENAME_COLUMNS,Rename specified columns
+M_010,NEW_COLUMNS,Create new columns filled with a specific value
+M_011,PIVOT_TABLE,Works like pandas pivot table
+M_013,SUMMARY,Use one or more functions to summarize a column in the dataset
+M_030,FIND_REPLACE,Find one value in a column and replace it with another value
+M_029,FILL_MISSING_VALUES,Fill missing values in a specified format
+M_025,TRANSPOSE,Convert rows to columns and columns to rows
+M_008,MELT,Melt/unpivot columns in the dataset– columns become all values in one row
+M_023,SAMPLE,Sample some amount of values in the dataset
+M_040,INTERPOLATE,Fill missing values in a datset using interpolation
+M_006,FILTER,Filter for specific values in the dataset
+M_012,SELECT,Keep only selected columns in the dataset
+M_032,KEEP_HEADERS_ONLY,Return dataset with only the column names but no values
+M_003,COUNT,Count instances of some column/row combination in the dataset
+M_038,EDA_TIME_SERIES,Create output datasets to describe the time series in the input
+M_037,EDA,Create output datasets to describe data in the input
+M_002,CONVERT,Convert the datatypes of a column
+I_004,LOAD,Import from database
+I_006,HANA,Import from HANA database
+I_005,IMPORTED,Import from platform
+I_001,PYTHON,Input is created by python code
+I_002,INPUT_CONNECTOR,Import data using a connector
+I_000,S3,Import data from s33
+I_003,CUSTOM_FACET,Import data using custom code

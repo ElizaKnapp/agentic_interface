@@ -1,0 +1,7 @@
+The average sales in January in the Midwest for the "full aux forecasts" dataset is approximately 80.28 units, while the average sales in January in the South is approximately 91.61 units. 
+
+Therefore, the average sales in January in the South are higher compared to the average sales in January in the Midwest for the "full aux forecasts" dataset.
+The average sales in January in the Midwest for full aux forecasts is 80.28, while the average sales in January in the South is 91.61. Therefore, the average sales in January in the South are higher compared to the Midwest for the given dataset.
+The average sales in January in the Midwest for full aux forecasts is 80.905, while the average sales in January in the South is 97.8075. Therefore, the average sales in January in the South are higher compared to the Midwest for the given dataset.
+The average sales in January in the Midwest for full aux forecasts is 80.28 units, while the average sales in January in the South is 91.61 units. Therefore, the average sales in January in the South are higher compared to the Midwest for the given dataset.
+The average sales in January in the Midwest for full aux forecasts is 80.28 units, while the average sales in January in the South is 91.61 units. Therefore, the comparison shows that the average sales in January in the South are higher than in the Midwest based on the data in the "full aux forecasts" dataset.
